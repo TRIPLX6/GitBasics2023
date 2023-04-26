@@ -1,0 +1,1 @@
+write-Output "Coucou, Git c'est génial"

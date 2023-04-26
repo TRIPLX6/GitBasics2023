@@ -16,5 +16,6 @@ CREATE TABLE chanson (
 	id_chanteur INTEGER
 );
 
-ALTER TABLE chanson add CONSTRAINT FOREIGN KEY id_chanteur
+ALTER TABLE chanson add CONSTRAINT FOREIGN KEY fk_chanteur_chanteur
+		FOREIGN KEY (id_chanteur)
 	REFERENCES chanteur(id);
